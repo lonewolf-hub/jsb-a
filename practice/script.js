@@ -1,5 +1,7 @@
 console.log("hi");
 
+//variable and constants
+
 var score = 2;
 var score = 5;
 console.log(score)
@@ -8,3 +10,9 @@ console.log(score)
 let points = 1;
 points = 2;
 console.log(points);
+//here we can see let can't be redeclare but the value can me reassigned or can be changed
+
+const value = 12;
+
+
+
