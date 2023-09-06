@@ -17,3 +17,14 @@ const value = 15;
 console.log(value)
 
 // in the current working scenario we should try to use const instead of var and let because it doesn't allow you to redeclare and reassign the same variable twice in a program 
+
+//Changing values in the const declared object
+
+const person = {};
+person.name = "Jai";
+console.log(person);
+//changing the values in array is allowed in javascript
+const cities = [];
+cities.push("Sasaram");
+console.log(cities);
+

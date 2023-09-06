@@ -61,6 +61,9 @@ console.log("Extracted String = ", sliceName);
 let newFruits = "Apple Bannana Grapes Pear Guava"
 let arrFruits = newFruits.split(' '); // here the split Method will split all the string and return it like an array on the basis of spaces in the string
 console.log(arrFruits)
+let newFruitSplit = newFruits.split("a"); // it will split the string where ever the given character is present
+console.log(newFruitSplit)
+
 let anothrFruits = "One,Two,Three,Four,Five"
 let anothrNewFruits = anothrFruits.split(",");
 console.log(anothrNewFruits)

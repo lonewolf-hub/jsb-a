@@ -24,3 +24,4 @@ console.log(stringType, typeof stringType)
 let newAge = 78;
 let booleanValueOfAge = Boolean(newAge);
 console.log('Boolean Value Of Age Is ', booleanValueOfAge,"and the type of age is",typeof booleanValueOfAge)
+

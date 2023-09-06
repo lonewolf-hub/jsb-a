@@ -24,3 +24,16 @@ console.log(newvar) // so here we can see that there is no value initialized so 
 // Object Complex data structure 
 
 // Symbol looks like object which is used to define protocols in javascript
+
+//Objects in Javascript
+let newObj = {Name : "Jai Shukla"};
+console.log(newObj)
+
+// type of coercion
+let b = 6 ;
+let c = "9";
+console.log(b+c,b*c,b-c);
+
+let d = 8;
+let e = 'eight'
+console.log(d+e,d*e,d-e);

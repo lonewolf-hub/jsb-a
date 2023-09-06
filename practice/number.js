@@ -40,3 +40,14 @@ console.log(age === '22'); // focus on both value and type
 // loose Not equal Operator !=
 // strict not equal Operator !==
 
+// Arithmetic Operations
+let a =6;
+a++;
+console.log(a); // 7
+a+=2; // a = a+2  9
+console.log(a);
+a--; 
+console.log(a); // 8
+a-=2; 
+console.log(a); // 6
+
