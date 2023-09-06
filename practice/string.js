@@ -52,5 +52,22 @@ let newFullName = "Jai Kumar Shukla";
 console.log(newFullName.slice(0,7)); // the slice function is used to return or slice a part from string with the given indexes but excluding the last index 0-6 indexes will be printed in the current scenario
 //strings are immutable in nature which means a certain sting cannot be changed directly in a program
 
+let sliceName = newFullName.slice(0,9);
+console.log("Original String  =", newFullName);
+console.log("Extracted String = ", sliceName);
 
+// String "split" Method 
+
+let newFruits = "Apple Bannana Grapes Pear Guava"
+let arrFruits = newFruits.split(' '); // here the split Method will split all the string and return it like an array on the basis of spaces in the string
+console.log(arrFruits)
+let anothrFruits = "One,Two,Three,Four,Five"
+let anothrNewFruits = anothrFruits.split(",");
+console.log(anothrNewFruits)
+
+// Strings in javascript are immutable
+
+let str = "hello";
+str = str + "Learners";
+console.log(str);
 
